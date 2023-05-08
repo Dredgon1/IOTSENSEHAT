@@ -12,7 +12,7 @@ paho link: https://pypi.org/project/paho-mqtt/
 we ran mosquitto on a windows laptop, it requires some setup and you have to run it with CMD with the mosquitto.conf
 in the conf file you need to do:
 
-allow_anonymous enabled
+allow_anonymous enabled and
 listener 1883 
 
 you can search for both of them and in the mosquitto.conf file and uncomment them
